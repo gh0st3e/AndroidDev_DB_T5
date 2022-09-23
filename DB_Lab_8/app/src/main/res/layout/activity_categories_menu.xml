@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesMenu">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Категории"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saveCat"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="500dp"
+        android:background="#00FFFFFF"
+        android:enabled="false"
+        android:onClick="saveCatBtn"
+        app:icon="@android:drawable/stat_sys_download"
+        app:iconPadding="0dp"
+        app:iconTint="#12671B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/delCat"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="500dp"
+        android:background="#00573B3B"
+        android:enabled="false"
+        android:onClick="delCatBtn"
+        app:icon="@android:drawable/ic_menu_delete"
+        app:iconTint="#FF0000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addCat"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="500dp"
+        android:background="#00FFFFFF"
+        android:onClick="addCatBtn"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconTint="#39FF00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/catName"
+        android:layout_width="345dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="432dp"
+        android:ems="10"
+        android:enabled="true"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/editCat"
+        android:onClick="editCatBtn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="500dp"
+        android:background="#00FFFFFF"
+        android:enabled="false"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:iconPadding="0dp"
+        app:iconTint="#403B0E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/categoriesList"
+        android:layout_width="345dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="99dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

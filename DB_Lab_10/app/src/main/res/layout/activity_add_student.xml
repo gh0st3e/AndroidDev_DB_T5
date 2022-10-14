@@ -4,64 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddGroup">
+    tools:context=".AddStudent">
 
     <EditText
-        android:id="@+id/courseGroup"
-        android:hint="course"
+        android:id="@+id/studentId"
+        android:hint="id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="208dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="49dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/nameGroup"
+        android:id="@+id/studentName"
         android:hint="name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="137dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/facultyGroup"
-        android:hint="faculty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="128dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+    <Spinner
+        android:id="@+id/groupSpinner"
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="232dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/insertGroup"
-        android:onClick="insertGroupBtn"
+        android:id="@+id/insertStudent"
+        android:onClick="insertStudentBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="256dp"
-        android:layout_marginTop="548dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="356dp"
         android:text="Добавить"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/groupId"
-        android:hint="id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="52dp"
-        android:ems="10"
-        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

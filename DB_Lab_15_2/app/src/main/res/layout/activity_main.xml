@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/deleteStudent"
+        android:onClick="delStudentBtn"
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="560dp"
+        android:text="Удалить студента"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/updateStudent"
+        android:onClick="updateStudentBtn"
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="480dp"
+        android:text="Апдейтнуть студента"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addStudent"
+        android:onClick="addStudentBtn"
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="404dp"
+        android:text="Добавить Студента"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/deleteGroup"
+        android:onClick="delGroupBtn"
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="318dp"
+        android:text="Удалить группу"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/allStudents"
+        android:onClick="showStudentsBtn"
+        android:layout_width="123dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="241dp"
+        android:layout_marginTop="29dp"
+        android:text="Все студенты"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AllGroups"
+        android:onClick="showGroupsBtn"
+        android:layout_width="123dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="29dp"
+        android:text="Все группы"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AddGroup"
+        android:onClick="addGroupBtn"
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="166dp"
+        android:text="Добавить группу"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/updateGroup"
+        android:onClick="updateGroupBtn"
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="243dp"
+        android:text="Апдейтнуть группу"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

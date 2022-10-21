@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/showAverageGroup"
+        android:layout_width="150dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="372dp"
+        android:onClick="showAverageGroupBtn"
+        android:text="Статистика групп"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showFacultyStat"
+        android:layout_width="220dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="460dp"
+        android:onClick="showFacultyStatBtn"
+        android:text="Факультеты"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showGroupStat"
+        android:layout_width="144dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="380dp"
+        android:onClick="showGroupStatBtn"
+        android:text="Группы и предметы"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showLow"
+        android:layout_width="220dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="276dp"
+        android:onClick="showLowBtn"
+        android:text="Отстающие студенты"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showBest"
+        android:layout_width="220dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="160dp"
+        android:onClick="showBestBtn"
+        android:text="Лучшие студенты"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showGroups"
+        android:onClick="showGroupsBtn"
+        android:layout_width="220dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="40dp"
+        android:text="Группы"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
